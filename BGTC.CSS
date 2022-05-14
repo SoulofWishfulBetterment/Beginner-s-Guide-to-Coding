@@ -1,0 +1,236 @@
+html {
+    background-color: bisque;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 87%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Typography*/
+header h1 {
+    margin: 0;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 165%;
+    font-style: normal;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-shadow: 2px 10px 1px #999999;
+}
+
+header p {
+    font-size: 100%;
+    margin-top: 10px;
+    text-align: justify;
+    color: green;
+}
+
+header p a {
+    text-decoration: none;
+}
+/*End of Typography*/
+
+/* Images */
+.image-banner {
+    position: relative;
+    top: 10px;
+    left: 140px;
+    z-index: 10;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.image-banner-child {
+    width: 70%;
+    position: relative;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.image-text {
+    color: black;
+    font-size: 17px;
+    width: 95%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.image-text h3 {
+    margin: 0;
+}
+
+p.image-text a {
+    text-decoration: none;
+    color: blueviolet;
+}
+/* End of Images */
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../ImagesforBGC/BackgroundforBGC.png) left bottom repeat-x, #FFF url(../ImagesforBGC/BackgroundforBGC.png) left top repeat-x;
+    background-size: 40px 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-image: url(../ImagesforBGC/Homepage\ Screen.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+}
+
+header {
+    padding-top: 20px;
+    color: #617140;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+header p {
+    margin: 0;
+}
+
+/* SIte Navigation */
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #617140;
+    padding: 10px 20px;
+    border: 3px solid #e5e9dc;
+    border-bottom: none;
+    display: block;
+}
+
+.site-nav a:hover {
+    background-color: #e5e9dc;
+}
+/* End Site Navigation */
+
+.content-area {
+    border-top: 3px solid #e5e9dc;
+}
+
+.main-area {
+    width: 100%;
+    float: center;
+    padding-right: 40px;
+}
+
+.main-area article p a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.info-box {
+    background-color: #efeedb;
+    border: 5px solid #e6e5c2;
+    padding: 5px 15px 7px 15px;
+    margin-bottom: 1em;
+}
+
+.info-box a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.fix {
+    clear: both;
+}
+
+.group:before,
+.group:after {
+    content: " ";
+    display: table;
+            }
+.group:after {
+    clear: both;
+    }
+
+p {
+    color: black;
+    font-size: 17px;
+}
+
+p.link-text a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+footer p {
+    color: red;
+    text-align: center;
+    font-size: 85%;
+    color: #999;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 3px solid #e5e9dc;
+}
+
+h1 {
+    color: rgb(232, 228, 235);
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1.Title-text {
+    color: #617140;
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+    text-shadow: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2.header-text a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+header p {
+    color: green;
+}
+
+header p span {
+    color: blue;
+}
+
+aside {
+    color: #617140;
+}
